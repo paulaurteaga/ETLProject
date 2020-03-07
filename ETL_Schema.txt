@@ -1,0 +1,33 @@
+CREATE TABLE Ebola(
+	id Int Primary Key, 
+	Country Varchar(20),
+	date date,
+	Confirmed_Cases INT, 
+	Confirmed_Deaths INT, 
+	Type varchar(20)
+);
+
+CREATE TABLE nCoV (
+	id Int Primary Key, 
+  	Country Varchar(20), 
+	date date , 
+	Confirmed_Cases INT, 
+	Confirmed_Deaths INT, 
+	Type Varchar(20)
+);
+
+CREATE TABLE sars(
+	id Int Primary Key, 
+	Country varchar(20), 
+	Date date , 
+	Confirmed_Cases INT, 
+	Confirmed_Deaths INT, 
+	Type Varchar(20)
+);
+
+Create table Virus_data(
+	tpye varchar(30),
+	country varchar(30),
+	confirmed_cases float,
+	confirmed_deaths float
+);
